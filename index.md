@@ -1,43 +1,43 @@
 ---
-title: My First Page
+title: Hiring Across Borders
 layout: default
 datatable: true
 ---
 
-# Some Vegetables
+# Hiring Across Borders 
 
-Sometimes I just want to sort and filter my vegetables. I know this may seem a little strange, but 
-I'm trying to learn German and sometimes this is just a necessary step. It's also nice to try out a few non-English characters, just to see what happens!
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Over the last few weeks, I’ve talked to more and more American tech workers who are curious about moving abroad. In an attempt to be helpful, I’m putting together a list of companies that are able to support new employees immigrating. This means that **these companies are able to help new employees get visas or work permits, either by “sponsorship” or simply by assisting with necessary paperwork**. The list below is sortable and filterable, by role and location: 
 
 Filter me: <input type="text" disabled=true id="filter" placeholder="Filter..." autofocus /><br/>
 <table id="filterable" class="overview sortable-table">
     <thead>
         <tr>
-            <th>English ⇅</th>
-            <th>Artikel ⇅</th>
-            <th>Deutsch ⇅</th>
-            <th>Plural ⇅</th>
-            <th>Rating ⇅</th>
+            <th>Company ⇅</th>
+            <th>Location ⇅</th>
+            <th>Hiring for... ⇅</th>
+            <th>Contact Info ⇅</th>
         </tr>
     </thead>
 
     <tbody>
-        {% for veg in site.data.vegetables %}
+        {% for c in site.data.companies %}
         <tr>
-            <td>{{ veg.english }}</td>
-            <td>{{ veg.artikel }}</td>
-            <td>{{ veg.deutsch }}</td>
-            <td>{{ veg.plural }}</td>
-            <td>{{ veg.rating }}</td>
+            <td>{{ c.name }}</td>
+            <td>{{ c.location }}</td>
+            <td>{{ c.hiring }}</td>
+            <td>{{ c.url }}</td>
         </tr>
         {% endfor %}
     </tbody>
 </table>
 
-## More context on vegetables
+## Add your company 
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+The easiest way to add your company is to open a PR on 
+<a href="https://github.com/tessr/hiring-across-borders">the Github repo</a>
+ hosting this page, and 
+ <a href="https://github.com/tessr/hiring-across-borders/blob/main/_data/vegetables.yml">add your info to the data.yml file</a>. 
+ (That way, you can also remove and update your data.) 
+ However, if you’re not comfortable using Github, feel free to 
+ <a href="https://twitter.com/_tessr">DM me</a> 
+ and I’ll add your info myself :) 
