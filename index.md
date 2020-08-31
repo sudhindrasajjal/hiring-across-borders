@@ -36,7 +36,7 @@ Filter me: <input type="text" disabled=true id="filter" placeholder="Filter..." 
 The easiest way to add your company is to open a PR on 
 <a href="https://github.com/tessr/hiring-across-borders">the Github repo</a>
  hosting this page, and 
- <a href="https://github.com/tessr/hiring-across-borders/blob/main/_data/vegetables.yml">add your info to the data.yml file</a>. 
+ <a href="https://github.com/tessr/hiring-across-borders/blob/main/_data/companies.yml">add your info to the data.yml file</a>. 
  (That way, you can also remove and update your data.) 
  However, if you’re not comfortable using Github, feel free to 
  <a href="https://twitter.com/_tessr">DM me</a> 
