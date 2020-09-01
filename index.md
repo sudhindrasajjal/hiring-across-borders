@@ -6,7 +6,7 @@ datatable: true
 
 # 🌍 Hiring Across Borders 
 
-This is a list of companies that are able to support new employees who are immigrating. This means that these companies are able to help new employees get visas or work permits, either through "sponsorship" or simply by assissting with necessary paperwork. 
+This is a list of companies that are able to support new employees who are immigrating. This means that **these companies are able to help new employees get visas or work permits, either through "sponsorship" or simply by assissting with necessary paperwork.** 
 
 This is motivated in large part by conversations I've had over the last several weeks: I’ve talked to more and more American tech workers who are curious about moving abroad, with increasing urgency. But I expect it will be broadly helpful to anyone who is interested in moving and exploring new countries. 
 
